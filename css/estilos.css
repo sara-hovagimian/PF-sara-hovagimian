@@ -472,7 +472,7 @@ td {
 }
 .menu_boot ul li::before {
     content: "";
-    width: 77%;
+    width: 85%;
 }
 .bg-body-personal {
     width:25%;
