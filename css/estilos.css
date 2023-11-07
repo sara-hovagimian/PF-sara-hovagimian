@@ -475,7 +475,7 @@ td {
     width: 85%;
 }
 .menu_inic {
-    width:40%;
+    width:50%;
 }
 }
 
@@ -518,6 +518,9 @@ td {
 
     .menu ul li a {
         font-size: 0.6rem;
+    }
+    .menu_inic {
+        width:40%;
     }
 }
 
