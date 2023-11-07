@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Definición de sinónimos</title>
+    <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
+    <!-- Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../css/estilos.css">
+</head>
+
+<body>
+    <header id="top">
+        <nav class="encabezado">
+            <div class="logo">
+                <a href="../index.html"><img src="../img/logo.png" alt="Logo de la empresa"></a>
+            </div>
+            <div class="mensaje">
+                <h2> ContaWEB</h2>
+                <h3>Centro de aprendizaje</h3>
+            </div>
+            <!--navbar boostrap-->
+            <nav class="navbar navbar-expand-lg bg-body-personal">
+                <div class="container-fluid menu_boot">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../index.html"><i
+                                        class='bx bx-home'></i>Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./faq.html">
+                                    <i class='bx bxs-quote-single-right'></i>
+                                    FAQ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://sac.bas.com.ar/" target=_blank>
+                                    <i class='bx bxs-user-detail'></i>
+                                    SAC</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./contactenos.html">
+                                    <i class='bx bx-envelope'></i>
+                                    Contactenos</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!--fin navbar boostrap-->
+        </nav>
+    </header>
+    <!--aca comienza el contenido-->
+    <section class="sinonimos">
+        <h1>Sinónimos</h1>
+        <section class="container-fluid">
+            <section class="row">
+                <div class="col-12">
+                    <p class="texto_sinonimo">
+                        El mecanismo de definición de los sinónimos, permite definir sinónimos para un origen de
+                        información (empresa que fiscaliza) indicando el número de cliente, la familia del producto
+                        (LEN o LES), el origen de datos y el código de empresa
+                        La manera de definir sinónimos es similar en todas las tablas previstas por la aplicación.
+                        Se verá el mecanismo de trabajo en la tabla “Unidades de medida” y la misma metodología
+                        podrá aplicarse al resto de las tablas.
+                        Es importante tener en cuenta al definir sinónimos que el nombre del sinónimo tiene que
+                        coincidir exactamente el que publica AFIP para que se pueda fiscalizar correctamente.
+                    </p>
+                </div>
+            </section>
+            <section class="row">
+                <div class="col-3">
+                    <img src="../img/Producto/imag018prueba.png" alt="Sinónimo de unidad" class="img_producto_prueba">
+                </div>
+                <div class="col col-lg-2 col-md-8 col-sm-9">
+                    <p class="texto_imagen"> Acá se muestra la definición del sinónimo "Unid." para la empresa "1"de la
+                        base de datos
+                        indicada en "Origen de datos" de productos LEN.</p>
+                </div>
+            </section>
+            <section class="row">
+                <div class="col-3">
+                    <img src="../img/Producto/imag019prueba.png" alt="Sinónimo de unidad" class="img_producto_prueba">
+                </div>
+                <div class="col col-lg-2 col-md-8 col-sm-9">
+                    <p class="texto_imagen">Aca se define el mismo sinónimo pero para todas las empresas de la base de
+                        datos indicada. Esto se debe a que no se ha indicado ningún código de empresa en el campo
+                        correspondiente.
+                    </p>
+                </div>
+            </section>
+            <section class="row">
+                <div class="col-3">
+                    <img src="../img/Producto/imag020prueba.png" alt="Sinónimo de unidad" class="img_producto_prueba">
+                </div>
+                <div class="col col-lg-2 col-md-8 col-sm-9">
+                    <p class="texto_imagen">Acá también se define el mismo sinónimo pero, ahora, para todos los
+                        productos de la línea LEN del usuario, si se fiscalizacen comprobantes en todos ellos.
+                    </p>
+                </div>
+            </section>
+            <section class="row">
+                <div class="col-12">
+                    <p class="texto_sinonimo">
+                        La definición de sinónimos es imprescindible antes de comenzar con la fiscalización. Tenés que
+                        respetar lso códigos, las mayúsculas y minúsculas, no incluir caracteres especiales y tomar
+                        todos los recaudos del caso. Recordá que antes de entrar al modo de producción tenes un server
+                        de homologación donde podés hacer tus pruebas. Te recomendamos probar todos los tipos de
+                        comprobantes, facutras, notas de crédito y de débito, tanto para cliente consumidores finales
+                        como para clientes inscriptos.
+
+                    </p>
+                </div>
+            </section>
+        </section>
+        <footer class="footer">
+            <a href="http://facebook.com" target="_blank"><img src="../img/facebook.png" alt="Facebook"></a>
+            <a href="http://Twitter.com" target="_blank"><img src="../img/twitter.png" alt="twitterk"></a>
+            <a href="http://Linkedin.com" target="_blank"><img src="../img/linkedin.png" alt="linkedin"></a>
+            <a href="http://youtube.com" target="_blank"><img src="../img/youtube.png" alt="youtube"></a>
+            <a href="http://instagram.com" target="_blank"><img src="../img/instagram.jpg" alt="instagram"></a>
+            <a href="#top"><img src="../img/arriba.png" alt="arriba"></a>
+        </footer>
+        <script src="../js/popper.js"></script>
+        <script src="../js/bootstrap.js"></script>
+</body>
+
+</html>
