@@ -24,7 +24,7 @@ h1 {
 nav.encabezado {
     width: 100%;
     height: 100px;
-    background-image: url(../img/imag002.png);
+    background-image: url(../img/imag002.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -38,11 +38,11 @@ nav.encabezado {
 
 nav.encabezado h2,
 nav.encabezado h3 {
-    color: whitesmoke;
+    color: rgb(92, 89, 89);
     font-size: 25px;
     font-family: "KGRedHands";
     margin-top: 10px;
-    margin-left: 300px;
+    margin-left: 20px;
 }
 
 /*estilos del menu*/
