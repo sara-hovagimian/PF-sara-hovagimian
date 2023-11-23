@@ -4,23 +4,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Todo lo que hay que saber</title>
+    <meta name="description"
+        content="Todos los informes de ContaWEB tiene múltiples variantes de presentación y se emiten de la misma manera. Podés imprimirlos, consultarlos por pantalla y exportarlos a archivos.">
+    <meta name="keywords"
+        content="ContaWEB,Contabilidad, Asientos, Subdiarios, Mayores, Ejercicio económico, Balances, Plan de cuentas, Diario general, Asientos de ajuste, Ajuste por inflación, Sistema de contabilidad">
+    <title>ContaWEB-Todo lo que hay que saber</title>
     <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
     <!-- Boxicons CSS -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!--boostrap-->
     <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+    <!--aos-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../css/estilos.css">
 </head>
 
 <body>
     <header id="top">
         <nav class="encabezado">
-            <div class="logo">
+            <div class="logo" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
                 <a href="../index.html"><img src="../img/logo.png" alt="Logo de la empresa"></a>
             </div>
-            <div class="mensaje">
+            <div class="mensaje" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
                 <h2> ContaWEB</h2>
-                <h3>Centro de aprendizaje</h3>
+                <h2>Centro de aprendizaje</h2>
             </div>
             <!--navbar boostrap-->
             <nav class="navbar navbar-expand-lg bg-body-personal menu_inic">
@@ -77,7 +84,7 @@
         <p>Todos los procesos de emisión de listados pueden ser interrumpidos seleccionando la opción Cancelar que
             aparece mientras se realiza el procesamiento de los datos para tal emisión.</p>
         <p> Estos iconos te serán de utilidad durante la tarea:</p>
-        
+
         <table class="tabla">
 
             <tr>
@@ -117,6 +124,11 @@
     </footer>
     <script src="../js/popper.js"></script>
     <script src="../js/bootstrap.js"></script>
+    <!--aops-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

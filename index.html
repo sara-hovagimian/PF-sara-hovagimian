@@ -4,11 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Centro de aprendizaje</title>
+    <meta name="description"
+        content="Optimiza y simplifica tus procesos con ContaWEB. Eficiencia, precisión y control en una sola plataforma.">
+    <meta name="keywords"
+        content="ContaWEB,Contabilidad, Asientos, Subdiarios, Mayores, Ejercicio económico, Balances, Plan de cuentas, Diario general, Asientos de ajuste, Ajuste por inflación, Sistema de contabilidad">
+
+    <title>ContaWEB-Centro de aprendizaje</title>
     <link rel="icon" type="image/x-icon" href="img/favicon.ico">
     <!-- Boxicons CSS -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!--boostrap-->
     <link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+    <!--aos-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./css/estilos.css">
 </head>
 
@@ -16,10 +24,10 @@
     <!--Encabezado Logo, titulo-->
     <header id="top">
         <nav class="encabezado">
-            <div class="logo">
+            <div class="logo" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
                 <a href="./index.html"><img src="./img/logo.png" alt="Logo de la empresa"></a>
             </div>
-            <div class="mensaje">
+            <div class="mensaje" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
                 <h2> ContaWEB</h2>
                 <h2>Centro de aprendizaje</h2>
             </div>
@@ -59,50 +67,79 @@
         </nav>
     </header>
     <!--fin encabezado-->
-    <!--Temas del Index-->
-    <main class="seccion_grilla">
-        <seccion class="lista_temas">
-            <div class="temas_index1">
-                <img src="./img/imag001.png" alt="Primeros Pasos" title="Primeros Pasos" class="img_chica">
-                <h3>Primeros pasos</h3>
-                <p>Veras como ingresar al sistema, definir tu empresa y tu ejercicio economico. </p>
-                <a href="html/primerospasos.html" class="boton_ver_mas">Ver Más...</a>
+    <main>
+        <div class="container cont_cajas">
+            <h1>Temario</h1>
+            <div class="row">
+                <div class=" col-xxl-3 col-xl-4 col-lg-4 col-md-12 col-sm-12">
+
+                    <div class="mb-3 temas_index1">
+                        <img src="./img/imag001.png" alt="Primeros Pasos" title="Primeros Pasos" class="img_chica">
+                        <a href="html/primerospasos.html">
+                            <h3>Primeros pasos</h3>
+                        </a>
+                        <p>Veras como ingresar al sistema, definir tu empresa y tu ejercicio economico. </p>
+                        <a href="html/plandecuentas.html" class="boton_ver_mas">Ver Más...</a>
+
+                    </div>
+                </div>
+                <div class=" col-xxl-3 col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                    <div class="mb-3 temas_index2">
+                        <img src="./img/imag003.jpg" alt="Plan de cuentas" title="Plan de cuentas" class="img_chica">
+                        <a href="html/plandecuentas.html">
+                            <h3>Plan de cuentas</h3>
+                        </a>
+                        <p>Podes importarlo, copiarlo de otra empresa o, directamente, cargarlo manualmente.
+                        </p>
+                        <a href="html/plandecuentas.html" class="boton_ver_mas">Ver Más...</a>
+                    </div>
+                </div>
+                <div class=" col-xxl-3 col-xl-4 col-lg-4 col-md-12 col-sm-12 ">
+                    <div class="mb-3 temas_index3">
+                        <img src="./img/imag004.jpg" alt="Asientos" title="Asientos" class="img_chica">
+                        <a href="html/asientos.html">
+                            <h3>Asientos</h3>
+                        </a>
+                        <p>Aca podes encontrar como registrar diferentes tipos de asientos.</p>
+                        <a href="html/asientos.html" class="boton_ver_mas">Ver Más...</a>
+                    </div>
+                </div>
+                <div class=" col-xxl-3 col-xl-4 col-lg-4 col-md-12 col-sm-12 ">
+                    <div class="mb-3 temas_index4">
+                        <img src="./img/imag005.jpg" alt="Informes" title="Informes" class="img_chica">
+                        <a href="html/informes.html">
+                            <h3>Informes</h3>
+                        </a>
+                        <p>Como emitir mayores, el diario general, balances y subdiarios. </p>
+                        <a href="html/informes.html" class="boton_ver_mas">Ver Más...</a>
+                    </div>
+                </div>
+                <div class="col-xxl-3 col-xl-4 col-lg-4 col-md-12 col-sm-12 ">
+                    <div class="mb-3 temas_index5">
+                        <img src="./img/imag006.jpg" alt="Subdiarios" title="Subdiarios" class="img_chica">
+                        <a href="html/subdiarios.html">
+                            <h3>Subdiarios</h3>
+                        </a>
+                        <p>Como gestionar subdiarios, registrar, listarlos, etc.. </p>
+                        <a href="html/subdiarios.html" class="boton_ver_mas">Ver Más...</a>
+
+                    </div>
+                </div>
+                <div class=" col-xxl-3 col-xl-4 col-lg-4 col-md-12 col-sm-12 ">
+                    <div class="mb-3 temas_index6">
+                        <img src="./img/imag007.jpg" alt="Definición de sinónimos" title="Definición se sinónimos"
+                            class="img_chica">
+                        <a href="html/definicion_de_sinonimos.html">
+                            <h3>Definición de sinónimos</h3>
+                        </a>
+                        <p>Definí todos los sinónimos que requiere la AFIP para la fiscalización electrónica.</p>
+                        <a href="html/definicion_de_sinonimos.html" class="boton_ver_mas">Ver Más...</a>
+
+                    </div>
+                </div>
             </div>
-            <div class="temas_index2">
-                <img src="./img/imag003.jpg" alt="Plan de cuentas" title="Plan de cuentas" class="img_chica">
-                <h3>Plan de cuentas</h3>
-                <p>Podes importarlo, copiarlo de otra empresa o, directamente, cargarlo manualmente.
-                </p>
-                <a href="html/plandecuentas.html" class="boton_ver_mas">Ver Más...</a>
-            </div>
-            <div class="temas_index3">
-                <img src="./img/imag004.jpg" alt="Asientos" title="Asientos" class="img_chica">
-                <h3>Asientos</h3>
-                <p>Aca podes encontrar como registrar diferentes tipos de asientos.</p>
-                <a href="html/asientos.html" class="boton_ver_mas">Ver Más...</a>
-            </div>
-            <div class="temas_index4">
-                <img src="./img/imag005.jpg" alt="Informes" title="Informes" class="img_chica">
-                <h3>Informes</h3>
-                <p>Como emitir mayores, el diario general, balances y subdiarios. </p>
-                <a href="html/informes.html" class="boton_ver_mas">Ver Más...</a>
-            </div>
-            <div class="temas_index5">
-                <img src="./img/imag006.jpg" alt="Subdiarios" title="Subdiarios" class="img_chica">
-                <h3>Subdiarios</h3>
-                <p>Como gestionar subdiarios, registrar, listarlos, etc.. </p>
-                <a href="html/subdiarios.html" class="boton_ver_mas">Ver Más...</a>
-            </div>
-            <div class="temas_index6">
-                <img src="./img/imag007.jpg" alt="Definición de sinónimos" title="Definición se sinónimos"
-                    class="img_chica">
-                <h3>Definición de sinónimos</h3>
-                <p>Definí todos los sinónimos que requiere la AFIP para la fiscalización electrónica.</p>
-                <a href="html/definicion_de_sinonimos.html" class="boton_ver_mas">Ver Más...</a>
-            </div>
-        </seccion>
+        </div>
     </main>
-    <!--Fin temas del Index-->
     <footer class="footer">
 
         <a href="http://facebook.com" target="_blank"><img src="./img/facebook.png" alt="Facebook"></a>
@@ -115,6 +152,11 @@
     </footer>
     <script src="./js/popper.js"></script>
     <script src="./js/bootstrap.js"></script>
+    <!--aops-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

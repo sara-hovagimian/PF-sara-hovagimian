@@ -1,0 +1,110 @@
+/*estilos segundo nivel*/
+.segundo_nivel {
+    margin-top: 100px;
+    padding: 30px;
+
+    ul {
+        list-style-type: none;
+
+        li {
+            color: map-get($colores, azul);
+            font-weight: $fuente_negrita;
+            padding: 10px;
+
+            a {
+                color: map-get($colores, azul);
+                font-weight: $fuente_negrita;
+            }
+        }
+    }
+
+    h4 {
+        font-size: $tam1rem;
+        margin-left: 0;
+        padding-top: 10px;
+    }
+
+    h1 {
+        font-size: $tam1rem*1.5;
+        font-weight: $fuente_negrita;
+    }
+    h2{
+        font-size: $tam1rem;
+        font-weight: $fuente_negrita;
+    }
+}
+
+/*estilos video, imagen producto, */
+.img_producto {
+    width: 50%;
+    border: 1px solid;
+    border-color: map-get($colores, gris_oscuro);
+    padding: 20px;
+    margin: 30px;
+}
+
+.video {
+    @extend .img_producto;
+    margin-left: 50px;
+}
+
+
+
+/*Estilos de tablas y listas */
+table {
+    border-collapse: collapse;
+
+    th {
+        text-align: center;
+        border: 1px solid map-get($colores, negro);
+    }
+
+    td {
+        border: 1px solid map-get($colores, negro);
+        padding: 10px;
+        margin: 20px;
+    }
+}
+
+.lista_con_vinetas ul li{
+    list-style-type: disc;
+    color: map-get($colores, negro);
+    font-weight:normal;
+    padding: 2px;
+}
+
+.lista {
+    color: map-get($colores, azul);
+    font-weight: $fuente_negrita;
+}
+
+/*sinonimos*/
+.sinonimos {
+    margin-top: 130px;
+
+    h1 {
+        @include fuentes($tam1rem*1.5,$fuente_negrita );
+        
+    }
+
+}
+
+.texto_sinonimo p {
+    font-size: 0.8* $tam1rem;
+}
+
+.texto_imagen {
+    font-size: $tam1rem;
+    margin-top: 100px;
+    margin-left: $tam1rem;
+}
+
+.img_con_texto {
+    width: 300px;
+    border: 1px solid;
+    border-color: map-get($colores, gris_oscuro);
+    padding: 20px;
+    margin: 25px;
+}
+
+/*fin estilos segundo nivel*/

@@ -4,23 +4,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Definición de sinónimos</title>
+    <meta name="description"
+        content="Cuando se trata de reportar información a la AFIP debes hacerlo con sus códigos. Acá podés asociar a cada código de ContaWEB el requerido por la AFIP.">
+    <meta name="keywords"
+        content="ContaWEB,Contabilidad, Asientos, Subdiarios, Mayores, Ejercicio económico, Balances, Plan de cuentas, Diario general, Asientos de ajuste, Ajuste por inflación, Sistema de contabilidad">
+    <title>ContaWEB-Definición de sinónimos</title>
     <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
     <!-- Boxicons CSS -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!--boostrap-->
     <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+    <!--aos-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../css/estilos.css">
 </head>
 
 <body>
     <header id="top">
         <nav class="encabezado">
-            <div class="logo">
+            <div class="logo" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
                 <a href="../index.html"><img src="../img/logo.png" alt="Logo de la empresa"></a>
             </div>
-            <div class="mensaje">
+            <div class="mensaje" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
                 <h2> ContaWEB</h2>
-                <h3>Centro de aprendizaje</h3>
+                <h2>Centro de aprendizaje</h2>
             </div>
             <!--navbar boostrap-->
             <nav class="navbar navbar-expand-lg bg-body-personal menu_inic">
@@ -59,7 +66,7 @@
         </nav>
     </header>
     <!--aca comienza el contenido-->
-    <section class="sinonimos">
+    <section class="segundo_nivel">
         <h1>Sinónimos</h1>
         <section class="container-fluid">
             <section class="row">
@@ -78,7 +85,7 @@
             </section>
             <section class="row">
                 <div class="col-3">
-                    <img src="../img/Producto/imag018.png" alt="Sinónimo de unidad" class="img_producto_prueba">
+                    <img src="../img/Producto/imag018.png" alt="Sinónimo de unidad" class="img_con_texto">
                 </div>
                 <div class="col col-lg-2 col-md-8 col-sm-9">
                     <p class="texto_imagen"> Acá se muestra la definición del sinónimo "Unid." para la empresa "1"de la
@@ -88,7 +95,7 @@
             </section>
             <section class="row">
                 <div class="col-3">
-                    <img src="../img/Producto/imag019.png" alt="Sinónimo de unidad" class="img_producto_prueba">
+                    <img src="../img/Producto/imag019.png" alt="Sinónimo de unidad" class="img_con_texto">
                 </div>
                 <div class="col col-lg-2 col-md-8 col-sm-9">
                     <p class="texto_imagen">Aca se define el mismo sinónimo pero para todas las empresas de la base de
@@ -99,7 +106,7 @@
             </section>
             <section class="row">
                 <div class="col-3">
-                    <img src="../img/Producto/imag020.png" alt="Sinónimo de unidad" class="img_producto_prueba">
+                    <img src="../img/Producto/imag020.png" alt="Sinónimo de unidad" class="img_con_texto">
                 </div>
                 <div class="col col-lg-2 col-md-8 col-sm-9">
                     <p class="texto_imagen">Acá también se define el mismo sinónimo pero, ahora, para todos los
@@ -114,7 +121,7 @@
                         respetar lso códigos, las mayúsculas y minúsculas, no incluir caracteres especiales y tomar
                         todos los recaudos del caso. Recordá que antes de entrar al modo de producción tenes un server
                         de homologación donde podés hacer tus pruebas. Te recomendamos probar todos los tipos de
-                        comprobantes, facutras, notas de crédito y de débito, tanto para cliente consumidores finales
+                        comprobantes, facturas, notas de crédito y de débito, tanto para cliente consumidores finales
                         como para clientes inscriptos.
 
                     </p>
@@ -131,6 +138,11 @@
         </footer>
         <script src="../js/popper.js"></script>
         <script src="../js/bootstrap.js"></script>
+        <!--aops-->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
 </body>
 
 </html>

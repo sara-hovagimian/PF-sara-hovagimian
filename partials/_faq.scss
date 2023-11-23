@@ -1,0 +1,23 @@
+/*estilos faqs*/
+.faqs {
+    margin-top: 100px;
+
+    h1 {
+        font-size: 22px;
+    }
+}
+
+.texto_negrita {
+    font-size: $tam1rem;
+    font-weight: $fuente_negrita;
+}
+
+.accordion-body p {
+    font-size: $tam1rem;
+
+    a {
+        @extend .texto_negrita;
+    }
+}
+
+/*fin estilos faqs*/

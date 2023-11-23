@@ -2,91 +2,104 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Asientos habituables</title>
-    <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
-    <!-- Boxicons CSS -->
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="../css/estilos.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Los asientos de diario son la columna vertebral de nuestra contabilidad, reflejando de manera precisa y detallada cada transacción financiera.">
+  <meta name="keywords"
+    content="ContaWEB,Contabilidad, Asientos, Subdiarios, Mayores, Ejercicio económico, Balances, Plan de cuentas, Diario general, Asientos de ajuste, Ajuste por inflación, Sistema de contabilidad">
+  <title>ContaWEB-Asientos habituables</title>
+  <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
+  <!-- Boxicons CSS -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <!--boostrap-->
+  <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+  <!--aos-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="../css/estilos.css">
 </head>
 
 <body>
-    <!--encabezado-->
-    <header id="top">
-        <nav class="encabezado">
-            <div class="logo">
-                <a href="../index.html"><img src="../img/logo.png" alt="Logo de la empresa"></a>
-            </div>
-            <div class="mensaje">
-                <h2> ContaWEB</h2>
-                <h3>Centro de aprendizaje</h3>
-            </div>
-            <!--navbar boostrap-->
-            <nav class="navbar navbar-expand-lg bg-body-personal menu_inic">
-                <div class="container-fluid menu_boot">
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="../index.html"><i class='bx bx-home'></i>Inicio</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="./faq.html">
-                            <i class='bx bxs-quote-single-right'></i>
-                            FAQ</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="https://sac.bas.com.ar/" target=_blank>
-                            <i class='bx bxs-user-detail'></i>
-                            SAC</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="./contactenos.html">
-                            <i class='bx bx-envelope'></i>
-                            Contactenos</a>
-                      </li>
-                      
-                    </ul>
-                  </div>
-                </div>
-              </nav>
-              <!--fin navbar boostrap-->
-        </nav>
+  <!--encabezado-->
+  <header id="top">
+    <nav class="encabezado">
+      <div class="logo" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
+        <a href="../index.html"><img src="../img/logo.png" alt="Logo de la empresa"></a>
+      </div>
+      <div class="mensaje" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
+        <h2> ContaWEB</h2>
+        <h2>Centro de aprendizaje</h2>
+      </div>
+      <!--navbar boostrap-->
+      <nav class="navbar navbar-expand-lg bg-body-personal menu_inic">
+        <div class="container-fluid menu_boot">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html"><i class='bx bx-home'></i>Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./faq.html">
+                  <i class='bx bxs-quote-single-right'></i>
+                  FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://sac.bas.com.ar/" target=_blank>
+                  <i class='bx bxs-user-detail'></i>
+                  SAC</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contactenos.html">
+                  <i class='bx bx-envelope'></i>
+                  Contactenos</a>
+              </li>
 
-    </header>
-    <!-- Aca comienza el texto del documento-->
-    <section class="segundo_nivel">
-        <h1>Asientos habituales</h1>
-        <p>Para ingresar asientos tenes que completar la pantalla siguiente :</p>
-               <img src="../img/Producto/pant_asi.png" alt="Ingreso de Asientos" class="img_producto">
-        <p>La procedencia de estos asientos es variada. Pueden tratarse de asientos ingresados
-          manualmente por el usuario, generados en forma automática (por ejemplo: asientos
-          resumen de subdiario, asientos de ajustes, de refundición, etc.), o importados de
-          otro sistema,por ejemplo: asientos detallados o resumen de los diferentes subdiarios
-          de Discovery, asiento de apertura de Exacta, etc..</p>
-          <p>El tipo de asiento a registrar depende de lo que indiques en el campo "Tipo".</p>
-         <P>En este caso debes indicar "Normal".
-          </P>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!--fin navbar boostrap-->
+    </nav>
 
-          <img src="../img/Producto/pant_asi2.png" alt="Ingreso de asientos" class="img_producto">
-        
-    </section>
+  </header>
+  <!-- Aca comienza el texto del documento-->
+  <section class="segundo_nivel">
+    <h1>Asientos habituales</h1>
+    <p>Para ingresar asientos tenes que completar la pantalla siguiente :</p>
+    <img src="../img/Producto/pant_asi.png" alt="Ingreso de Asientos" class="img_producto">
+    <p>La procedencia de estos asientos es variada. Pueden tratarse de asientos ingresados
+      manualmente por el usuario, generados en forma automática (por ejemplo: asientos
+      resumen de subdiario, asientos de ajustes, de refundición, etc.), o importados de
+      otro sistema,por ejemplo: asientos detallados o resumen de los diferentes subdiarios
+      de Discovery, asiento de apertura de Exacta, etc..</p>
+    <p>El tipo de asiento a registrar depende de lo que indiques en el campo "Tipo".</p>
+    <P>En este caso debes indicar "Normal".
+    </P>
+
+    <img src="../img/Producto/pant_asi2.png" alt="Ingreso de asientos" class="img_producto">
+
+  </section>
 
 
-    <footer class="footer">
-        <a href="http://facebook.com" target="_blank"><img src="../img/facebook.png" alt="Facebook"></a>
-        <a href="http://Twitter.com" target="_blank"><img src="../img/twitter.png" alt="twitterk"></a>
-        <a href="http://Linkedin.com" target="_blank"><img src="../img/linkedin.png" alt="linkedin"></a>
-        <a href="http://youtube.com" target="_blank"><img src="../img/youtube.png" alt="youtube"></a>
-        <a href="http://instagram.com" target="_blank"><img src="../img/instagram.jpg" alt="instagram"></a>
-        <a href="#top"><img src="../img/arriba.png" alt="arriba"></a>
-    </footer>
-    <script src="../js/popper.js"></script>
-    <script src="../js/bootstrap.js"></script>
+  <footer class="footer">
+    <a href="http://facebook.com" target="_blank"><img src="../img/facebook.png" alt="Facebook"></a>
+    <a href="http://Twitter.com" target="_blank"><img src="../img/twitter.png" alt="twitterk"></a>
+    <a href="http://Linkedin.com" target="_blank"><img src="../img/linkedin.png" alt="linkedin"></a>
+    <a href="http://youtube.com" target="_blank"><img src="../img/youtube.png" alt="youtube"></a>
+    <a href="http://instagram.com" target="_blank"><img src="../img/instagram.jpg" alt="instagram"></a>
+    <a href="#top"><img src="../img/arriba.png" alt="arriba"></a>
+  </footer>
+  <script src="../js/popper.js"></script>
+  <script src="../js/bootstrap.js"></script>
+  <!--aops-->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>

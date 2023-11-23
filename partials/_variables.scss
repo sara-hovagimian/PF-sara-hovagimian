@@ -1,0 +1,6 @@
+$tam1rem: 1rem;
+$fuente_negrita: bold;
+@mixin fuentes ($tamanio, $fuente){
+    font-size: $tamanio;
+    font-weight: $fuente;
+}

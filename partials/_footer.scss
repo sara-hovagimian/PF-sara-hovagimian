@@ -1,0 +1,14 @@
+/*estilos footer*/
+footer {
+    background-color: map-get($colores, gris_claro);
+    height: 60px;
+    padding: 30px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    justify-content: center;
+    width: 100%;
+}
+
+/*fin estilos footer*/
