@@ -426,6 +426,13 @@ table td {
     font-weight: bold;
   }
 }
+@media (max-width: 768px) {
+  .texto_imagen {
+    margin-left: 210px;
+    font-size: 0.8rem;
+    margin-top: 100px;
+  }
+}
 @media (max-width: 576px) {
   .segundo_nivel ol li {
     font-size: 0.8rem;

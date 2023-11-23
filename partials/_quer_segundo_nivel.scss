@@ -110,6 +110,14 @@
 
 }
 
+@media (max-width:768px) {
+    .texto_imagen {
+        margin-left: 210px;
+        font-size: 0.8* $tam1rem;
+        margin-top: 100px;
+    }
+}
+
 
 @media (max-width:576px) {
     .segundo_nivel {
