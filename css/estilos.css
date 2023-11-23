@@ -343,6 +343,16 @@ table td {
 }
 /*fin media queires encabezado*/
 /*media queries segundo nivel*/
+@media (max-width: 1400px) {
+  .texto_imagen {
+    margin-left: 50px;
+  }
+}
+@media (max-width: 1200px) {
+  .texto_imagen {
+    margin-left: 50px;
+  }
+}
 @media (max-width: 992px) {
   .segundo_nivel ol li {
     font-size: 0.8rem;
@@ -394,7 +404,7 @@ table td {
     font-size: 0.8rem;
   }
   .texto_imagen {
-    margin-left: 200px;
+    margin-left: 130px;
     font-size: 0.8rem;
     margin-top: 100px;
   }
@@ -466,7 +476,7 @@ table td {
     font-size: 0.8rem;
   }
   .texto_imagen {
-    margin-left: 200px;
+    margin-left: 210px;
     font-size: 0.8rem;
     margin-top: 100px;
   }
