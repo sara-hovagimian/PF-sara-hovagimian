@@ -103,6 +103,16 @@ footer {
   overflow: auto;
   justify-self: center;
   align-self: center;
+  transition: all 2s;
+}
+.cont_cajas .temas_index1:hover,
+.cont_cajas .temas_index2:hover,
+.cont_cajas .temas_index3:hover,
+.cont_cajas .temas_index4:hover,
+.cont_cajas .temas_index5:hover,
+.cont_cajas .temas_index6:hover {
+  height: 100%;
+  width: 100%;
 }
 .cont_cajas .temas_index1 h3,
 .cont_cajas .temas_index2 h3,
